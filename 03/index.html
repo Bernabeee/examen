@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 03</title>
+    <style>
+        .pais { 
+            width: 45%;
+            box-sizing: border-box;
+            margin: 2%;
+            height: 30rem;
+            float: left;
+        }
+
+        .pais_inter {
+            border: 2px solid;
+            height: 100%;
+            width: 100%;
+        }
+        .españa__franja--rojo {
+            background-color: #ff0000;
+            width: 100%;
+            height: 20%;
+        }
+
+        .españa__franja--amarilla {
+            background-color: #ffff00;
+            width: 100%;
+            height: 60%;
+        }
+
+
+        .dinamarca__cuadrado--rojo {
+            background-color: #ff0000;
+        }
+
+        .dinamarca__cuadrado--pequeño {
+            width: 40%;
+            height: 50%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .dinamarca__cuadrado--grande {
+            width: 60%;
+            height: 50%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .border__right {
+            border-right: 40px solid white;
+            }
+
+        .border-bottom { 
+            border-bottom: 40px solid white;
+            }
+            
+        .emiratos__barra-lateral {
+            width: 33.3%;
+            height: 100%;
+            box-sizing: border-box;
+            float: left;
+        }
+        
+        .emiratos__barra--horizontal {
+            width: 100%;
+            height: 33.3%;
+            box-sizing: border-box;
+            float: left;
+            
+        }
+
+        .emiratos__barra-lateral--rojo {
+            background-color: #ff0000;
+        }
+
+        .emiratos__barra--verde {
+            background-color: #008000;
+        }
+
+        .emiratos__barra--blanco {
+            background-color: white;
+        }
+
+        .emiratos__barra--negro {
+            background-color: black;
+        }
+
+        .franjas {
+            width: 66.7%;
+            height: 100%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .japon__content {
+            width: 100%;
+            height: 70%;;
+            box-sizing: border-box;
+        }
+        .japon__circulo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 9rem;
+        }
+
+        .japon__circulo--rojo {
+            background-color: #ff0000;
+
+            }
+
+        .content { height: 100%;}
+
+    </style>
+
+</head>
+<body>
+
+<main class="banderas">
+<section class="pais">
+    <div class="pais_inter">
+        <div class="españa__franja--rojo"></div>
+        <div class="españa__franja--amarilla"></div>
+        <div class="españa__franja--rojo"></div>
+    </div>
+    <h2>España</h2> 
+</section>
+
+<section class="pais">
+    <div class="pais_inter">
+        <div class="dinamarca__cuadrado--pequeño dinamarca__cuadrado--rojo border__right border-bottom"></div>
+        <div class="dinamarca__cuadrado--grande dinamarca__cuadrado--rojo border-bottom"></div>
+        <div class="dinamarca__cuadrado--pequeño dinamarca__cuadrado--rojo border__right"></div>
+        <div class="dinamarca__cuadrado--grande dinamarca__cuadrado--rojo"></div>
+    </div> 
+    <h2>Dinamarca</h2> 
+</section>
+
+    <section class="pais">
+    <div class="pais_inter">
+        <div class="emiratos__barra-lateral emiratos__barra-lateral--rojo"></div>
+    <div class="franjas">
+        <div class="emiratos__barra--horizontal emiratos__barra--verde"></div>
+        <div class="emiratos__barra--horizontal emiratos__barra--blanco"></div>
+        <div class="emiratos__barra--horizontal emiratos__barra--negro"></div>
+    </div>
+    </div>
+    <h2>Emiratos Árabes</h2> 
+    </section>
+<section class="pais">
+    <div class="pais_inter">
+        <div class="japon__content">
+            <div class="japon__circulo japon__circulo--rojo"></div>
+        </div>
+    </div>
+    <h2>Japón</h2> 
+</section>  
+</main>
+
+    
+</body>
+</html>
